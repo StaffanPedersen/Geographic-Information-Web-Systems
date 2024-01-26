@@ -6,9 +6,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "/Map-Kommuner" ]
+    branches: [ "Map-Kommuner" ]
   pull_request:
-    branches: [ "/Map-Kommuner" ]
+    branches: [ "Map-Kommuner" ]
 
 permissions:
   contents: read
