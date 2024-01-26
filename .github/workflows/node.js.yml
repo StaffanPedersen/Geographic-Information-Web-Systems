@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "Map-Kommuner" ]
+    branches: [ "/Map-Kommuner" ]
   pull_request:
-    branches: [ "Map-Kommuner" ]
+    branches: [ "/Map-Kommuner" ]
 
 permissions:
   contents: read
@@ -24,7 +24,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [20.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
