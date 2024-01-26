@@ -31,7 +31,7 @@ export function MapApplication() {
   return (
     <>
       <header>
-        <h1>Kristiania Map Application</h1>
+        <h1>Map Application</h1>
       </header>
       <nav>
         <CenterOnUserLink view={map.getView()} />
