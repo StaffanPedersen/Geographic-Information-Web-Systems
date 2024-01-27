@@ -1,4 +1,4 @@
 // vite.config.js
 export default {
-  base: "./Map-Kommuner/",
+  base: "/Geographic-Information-Web-Systems/",
 };
